@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 951debdb9d7de0c48a0b3ddc95cd5f17, type: 3}
+  m_Name: Shoes
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: -319258613, guid: 314ffb7352f3e494ca132788271078f6, type: 3}
+  - {fileID: 232093309, guid: 314ffb7352f3e494ca132788271078f6, type: 3}
+  - {fileID: -1585168953, guid: 314ffb7352f3e494ca132788271078f6, type: 3}
+  - {fileID: 1621141700, guid: 314ffb7352f3e494ca132788271078f6, type: 3}
+  - {fileID: -295004876, guid: 314ffb7352f3e494ca132788271078f6, type: 3}
+  - {fileID: 2097956137, guid: 314ffb7352f3e494ca132788271078f6, type: 3}
+  - {fileID: -914525007, guid: 314ffb7352f3e494ca132788271078f6, type: 3}
+  - {fileID: -564419406, guid: 314ffb7352f3e494ca132788271078f6, type: 3}
+  - {fileID: 481801269, guid: 314ffb7352f3e494ca132788271078f6, type: 3}
+  - {fileID: 1862362634, guid: 314ffb7352f3e494ca132788271078f6, type: 3}
+  - {fileID: 732294465, guid: 314ffb7352f3e494ca132788271078f6, type: 3}
+  - {fileID: 1294171521, guid: 314ffb7352f3e494ca132788271078f6, type: 3}

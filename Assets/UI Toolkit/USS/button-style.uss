@@ -1,0 +1,29 @@
+.button-style {
+    background-image: url('project://database/Assets/ImportedAssets/UI/kenney_ui-pack-rpg-expansion/PNG/arrowBeige_left.png?fileID=2800000&guid=e4afd422f0a98b949856511fa169d2ee&type=3#arrowBeige_left');
+    -unity-background-scale-mode: scale-to-fit;
+    background-color: rgba(255, 255, 255, 0);
+    width: initial;
+    height: initial;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+
+.button-style:hover {
+    background-image: url('project://database/Assets/ImportedAssets/UI/kenney_ui-pack-rpg-expansion/PNG/arrowBeige_left.png?fileID=2800000&guid=e4afd422f0a98b949856511fa169d2ee&type=3#arrowBeige_left');
+    -unity-background-scale-mode: scale-to-fit;
+    background-color: rgba(255, 255, 255, 0);
+    width: initial;
+    height: initial;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    cursor: initial;
+    -unity-background-image-tint-color: rgb(214, 214, 214);
+}
+
+.button-style:active {
+    -unity-background-image-tint-color: rgb(173, 173, 173);
+}

@@ -1,0 +1,3 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:TextField picking-mode="Ignore" value="filler text" style="align-self: center; align-items: stretch; flex-direction: row; -unity-background-image-tint-color: rgb(255, 255, 255); background-image: url(&apos;project://database/Assets/ImportedAssets/UI/kenney_ui-pack-rpg-expansion/PNG/buttonLong_beige_pressed.png?fileID=2800000&amp;guid=8a4e8be70d5db9842b5d88e4c3529c87&amp;type=3#buttonLong_beige_pressed&apos;); background-color: rgba(255, 255, 255, 0); -unity-background-scale-mode: stretch-to-fill; justify-content: space-between; bottom: -40%; width: 25%; height: 10%;" />
+</ui:UXML>

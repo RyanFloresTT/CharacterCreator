@@ -10,24 +10,24 @@ public class GameInput : MonoBehaviour
     public Action OnAlternateInteractAction;
     public Action OnPauseAction;
 
-    private PlayerInputActions _playerInputActions;
+    private PlayerInputActions playerInputActions;
     private void Awake()
     {
-        _playerInputActions = new PlayerInputActions();
-        _playerInputActions.Player.Enable();
+        playerInputActions = new PlayerInputActions();
+        playerInputActions.Player.Enable();
 
-        _playerInputActions.Player.Interact.performed += InteractPerformed;
-        _playerInputActions.Player.Pause.performed += PauseOnperformed;
+        playerInputActions.Player.Interact.performed += InteractPerformed;
+        playerInputActions.Player.Pause.performed += PauseOnperformed;
 
         Instance = this;
     }
 
     private void OnDestroy()
     {
-        _playerInputActions.Player.Interact.performed -= InteractPerformed;
-        _playerInputActions.Player.Pause.performed -= PauseOnperformed;
+        playerInputActions.Player.Interact.performed -= InteractPerformed;
+        playerInputActions.Player.Pause.performed -= PauseOnperformed;
 
-        _playerInputActions.Dispose();
+        playerInputActions.Dispose();
     }
 
     private void PauseOnperformed(InputAction.CallbackContext obj)
@@ -42,7 +42,7 @@ public class GameInput : MonoBehaviour
 
     public Vector2 GetMovementVector2Normalized()
     {
-        var inputVector = _playerInputActions.Player.Move.ReadValue<Vector2>();
+        var inputVector = playerInputActions.Player.Move.ReadValue<Vector2>();
 
         return inputVector;
     }

@@ -23,6 +23,7 @@ public class CosmeticManager : MonoBehaviour
         PantsPicker.OnPantsUpdated += UpdateCosmetics;
         ShoePicker.OnShoesUpdated += UpdateCosmetics;
         ClassPicker.OnClassUpdated += UpdateCosmetics;
+        CosmeticRandomizer.OnCosmeticRandomized += UpdateCosmetics;
     }
 
     private void UpdateCosmetics()

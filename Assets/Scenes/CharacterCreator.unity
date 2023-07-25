@@ -487,6 +487,7 @@ GameObject:
   - component: {fileID: 682922353}
   - component: {fileID: 682922352}
   - component: {fileID: 682922356}
+  - component: {fileID: 682922357}
   m_Layer: 5
   m_Name: UIDocument
   m_TagString: Untagged
@@ -617,6 +618,25 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d076c61706ac7ff4ba2df272da77ca94, type: 2}
   - {fileID: 11400000, guid: af9084401b6c8a743bf96d7e3e85ba39, type: 2}
   - {fileID: 11400000, guid: a7f278fd3afdbef4280d5f5826682efe, type: 2}
+  playerArt: {fileID: 11400000, guid: 97e9a78692d1db2429326a985a7a57d8, type: 2}
+--- !u!114 &682922357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 682922348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95279ec39b3d05a4cb9e72d2fda21c1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  document: {fileID: 682922349}
+  skin: {fileID: 11400000, guid: bbf599125976d9b408e8fd5621311369, type: 2}
+  hair: {fileID: 11400000, guid: d763cd88b2c87ae45892303c94e53e73, type: 2}
+  shirt: {fileID: 11400000, guid: 1e2e56bea9eacba42a21528177718e9d, type: 2}
+  pants: {fileID: 11400000, guid: 1700b817bb025c7458f8d37a586f78ca, type: 2}
+  shoes: {fileID: 11400000, guid: 452952dfe23a281478ad71b373e9b8e2, type: 2}
   playerArt: {fileID: 11400000, guid: 97e9a78692d1db2429326a985a7a57d8, type: 2}
 --- !u!1 &1009018162
 GameObject:

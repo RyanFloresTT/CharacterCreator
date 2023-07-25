@@ -10,7 +10,6 @@ public class SkinPicker : MonoBehaviour, IPickCustomizations
 
     public static Action OnSkinUpdated;
 
-    private Sprite currentSprite;
     private int spriteIndex;
     private VisualElement root;
     private int spriteCollectionLength;
@@ -60,8 +59,7 @@ public class SkinPicker : MonoBehaviour, IPickCustomizations
 
     private void UpdatePlayerSprite()
     {
-        currentSprite = skinSprites.Sprites[spriteIndex];
-        playerArt.Skin = currentSprite;
+        playerArt.Skin = skinSprites.Sprites[spriteIndex];
         OnSkinUpdated?.Invoke();
     }
 }
